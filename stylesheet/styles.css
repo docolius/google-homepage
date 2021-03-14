@@ -17,9 +17,6 @@ a:link, a:visited{
     color:black;
     text-decoration: none;
 }
-a:hover{
-
-}
 a:active{
     font-family: arial, sans-serif;
     font-size: 14px;
@@ -49,7 +46,6 @@ svg{
     height: 20px;
 }
 body{
-    -webkit-appearance: none;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -85,7 +81,7 @@ body{
     margin: auto;
     text-align: center;
 }
-.search-box{
+.search-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,14 +93,10 @@ body{
     height: 34px;
     margin: 28px;
 }
-.search-svg{
+.search-svg {
     width: auto;
     height: 28px;
     margin: 6px;
-}
-.search-form{
-    -webkit-appearance: none;
-    border-style: hidden;
 }
 input[type="text" i] {
     padding: 1px 2px;
