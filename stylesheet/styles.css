@@ -4,8 +4,50 @@ body {
     height: 99%;
     padding: 0;
     overflow-x: hidden; 
+    font-family: arial, sans-serif;
+    font-size: 14px;
 }
+a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+a:link, a:visited{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color:black;
+    text-decoration: none;
+}
+a:hover{
 
+}
+a:active{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color:black;
+    text-decoration: none;
+}
+button{
+    background-color: ghostwhite;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 5px;
+    border-color: ghostwhite;
+    border-style: solid;
+    border-width: thin;
+}
+button:hover{
+    border-color: lightgray;
+    border-style: solid;
+    border-width: thin;
+}
+svg{
+    width: 20px;
+    height: 20px;
+}
 body{
     -webkit-appearance: none;
     display: flex;
@@ -19,14 +61,23 @@ body{
     flex-wrap: nowrap;   
 }
 .headerflexleft{
+    display: flex;
     flex: 1;
     justify-content: flex-start;
     text-align: start;
+    align-items: center;
 }
 .headerflexright{
+    display: flex;
     flex: 1;
     justify-content: flex-end;
     text-align: end;
+    align-items: center;
+}
+.profile-picture{
+    width: auto;
+    height: 34px;
+    border-radius: 28px;
 }
 .mainflexcontent{
     display: flex;
@@ -34,9 +85,50 @@ body{
     margin: auto;
     text-align: center;
 }
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 20px;
+    width: 40vw;
+    height: 34px;
+    margin: 28px;
+}
+.search-svg{
+    width: auto;
+    height: 28px;
+    margin: 6px;
+}
+.search-form{
+    -webkit-appearance: none;
+    border-style: hidden;
+}
+input[type="text" i] {
+    padding: 1px 2px;
+    border-style: none;
+    flex: auto;
+}
+input[type="text" i]:focus {
+    padding: 1px 2px;
+    border-style: none;
+    outline: none;
+}
+footer{
+    color: slategray;
+}
 .flexfooter{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+}
+.flexfooter a{
+    color: slategray;
+}
+footer img {
+    width: auto;
+    height: 14px;
 }
